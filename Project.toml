@@ -1,5 +1,8 @@
 name = "EmpiricalPotentials"
 uuid = "38527215-9240-4c91-a638-d4250620c9e2"
+
+[workspace]
+projects = ["test", "benchmark", "docs"]
 version = "0.2.5"
 
 [deps]
@@ -20,7 +23,6 @@ AtomsCalculatorsUtilities = "0.1.7"
 Bumper = "0.6, 0.7"
 ForwardDiff = "0.10, 1"
 LinearAlgebra = "1"
-NeighbourLists = "0.5.6"
 StaticArrays = "1.7.0"
 Unitful = "1"
 julia = "1.9"
